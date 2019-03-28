@@ -13,7 +13,11 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 alias be='bundle exec'
 alias bi='bundle install --path vendor/bundle --jobs=4'
 alias ls='ls -G'
+alias ll='ls -l'
+alias la='ll -a'
+alias rm='rm -i'
 alias rs='be rails s -b 0.0.0.0'
+alias vi='vim'
 alias :q='exit'
 
 # alias:cd
