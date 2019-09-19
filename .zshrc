@@ -26,6 +26,7 @@ alias cdd="cd $HOME/Desktop"
 # alias:git
 alias g="git"
 alias l="git log"
+alias lp="git log -p"
 alias s="git status"
 alias a="git add"
 alias re="git reset"
