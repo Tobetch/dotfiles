@@ -76,4 +76,4 @@ export PATH=$PATH:`npm bin -g`
 
 # java
 export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin
-export JAVA_HOME=$PATH:/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
