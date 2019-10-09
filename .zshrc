@@ -63,3 +63,13 @@ alias std="git stash drop"
 
 # alias:tig
 alias t="tig"
+
+# eval "$(pyenv init -)"
+
+# alias:npm
+alias n="npm"
+alias ns="npm run start"
+
+# nodebrew
+export PATH=$PATH:/Users/[ユーザー名]/.nodebrew/current/bin
+export PATH=$PATH:`npm bin -g`
