@@ -73,3 +73,7 @@ alias ns="npm run start"
 # nodebrew
 export PATH=$PATH:/Users/[ユーザー名]/.nodebrew/current/bin
 export PATH=$PATH:`npm bin -g`
+
+# java
+export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin
+export JAVA_HOME=$PATH:/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
