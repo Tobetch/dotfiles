@@ -84,7 +84,7 @@ alias n="npm"
 alias ns="npm run start"
 
 # nodebrew
-export PATH=$PATH:/Users/[ユーザー名]/.nodebrew/current/bin
+export PATH=$PATH:/Users/`whoami`/.nodebrew/current/bin
 export PATH=$PATH:`npm bin -g`
 
 # java
