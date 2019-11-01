@@ -25,6 +25,9 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# alias:utility
+alias hg='history | grep'
+
 # alias
 alias be='bundle exec'
 alias bi='bundle install --path vendor/bundle --jobs=4'
