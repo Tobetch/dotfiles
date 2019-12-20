@@ -36,6 +36,7 @@ alias ll='ls -l'
 alias la='ll -a'
 alias rm='rm -i'
 alias rs='be rails s -b 0.0.0.0'
+alias tf='tail -f'
 alias vi='vim'
 alias :q='exit'
 
