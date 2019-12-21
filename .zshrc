@@ -15,7 +15,7 @@ fi
 
 # Customize to your needs...
 # Homebrew
-export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 
 # Homebrew rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -23,6 +23,14 @@ eval "$(rbenv init -)"
 
 # Homebrew node
 export PATH="/usr/local/share/npm/bin:$PATH"
+
+# Homebrew nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Homebrew gradle
+export PATH="/opt/gradle/gradle-6.0.1/bin:$PATH"
 
 # alias:utility
 alias hg='history | grep'
@@ -95,7 +103,3 @@ alias ns="npm run start"
 # java
 export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
