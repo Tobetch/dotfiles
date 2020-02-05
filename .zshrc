@@ -100,11 +100,7 @@ alias t="tig"
 alias n="npm"
 alias ns="npm run start"
 
-# java(Windows用)
-# export PATH=$PATH:/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
-
-# java(Mac用)
+# Java(Mac用)
 # export JAVA_HOME=`/usr/libexec/java_home -v 12` #java12が使いたいとき
 export JAVA_HOME=`/usr/libexec/java_home -v 11` #java11が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 10` #java10が使いたいとき
@@ -113,3 +109,5 @@ export JAVA_HOME=`/usr/libexec/java_home -v 11` #java11が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7` #java7が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.6` #java6が使いたいとき
 
+# Java(共通)
+export PATH=$PATH:$JAVA_HOME/bin
