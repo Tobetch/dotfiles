@@ -24,6 +24,9 @@ eval "$(rbenv init -)"
 # Homebrew node
 export PATH="/usr/local/share/npm/bin:$PATH"
 
+# Homebrew nodenv
+eval "$(nodenv init -)"
+
 # Homebrew nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
