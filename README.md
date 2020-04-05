@@ -16,4 +16,4 @@ $ ~/git/dotfiles/setup.sh
 
 That's all!
 
-Enjoy your terminal life!
+Enjoy your terminal life!!
