@@ -1,2 +1,5 @@
 [core]
 	excludesfile = /Users/tobetch/.gitignore_global
+[user]
+	name = Tobetch
+	email = takutobe@gmail.com
