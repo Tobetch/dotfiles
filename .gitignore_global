@@ -1,0 +1,14 @@
+# gitignore setting for Local Development
+# author: Takuto Tobe
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+.node-version
+
+.DS_Store
