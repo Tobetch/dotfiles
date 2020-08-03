@@ -16,8 +16,12 @@ $ ~/git/dotfiles/setup.sh
 
 That's all!
 
+<<<<<<< HEAD
 Enjoy your terminal life!
 
 
 
 ## Test for Push
+=======
+Enjoy your terminal life!!
+>>>>>>> be77d705c570fe302423898a06682e614a8e0e84
