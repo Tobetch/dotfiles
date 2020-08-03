@@ -127,3 +127,6 @@ export JAVA_HOME=`/usr/libexec/java_home -v 11` #java11が使いたいとき
 
 # Java(共通)
 export PATH=$PATH:$JAVA_HOME/bin
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
