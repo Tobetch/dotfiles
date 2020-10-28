@@ -36,8 +36,13 @@ eval "$(nodenv init -)"
 
 # Homebrew nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+# alias:npm
+alias n="npm"
+alias ns="npm run start"
+alias ncu="npm-check-updates"
 
 # Homebrew gradle
 export PATH="/opt/gradle/gradle-6.0.1/bin:$PATH"
@@ -112,13 +117,9 @@ alias t="tig"
 
 # eval "$(pyenv init -)"
 
-# alias:npm
-alias n="npm"
-alias ns="npm run start"
-
 # Java(Mac用)
 # export JAVA_HOME=`/usr/libexec/java_home -v 12` #java12が使いたいとき
-export JAVA_HOME=`/usr/libexec/java_home -v 11` #java11が使いたいとき
+export JAVA_HOME=$(/usr/libexec/java_home -v 11) #java11が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 10` #java10が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 9` #java9が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.8` #java8が使いたいとき
@@ -129,4 +130,3 @@ export JAVA_HOME=`/usr/libexec/java_home -v 11` #java11が使いたいとき
 export PATH=$PATH:$JAVA_HOME/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
