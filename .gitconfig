@@ -1,7 +1,4 @@
 [core]
 excludesfile = /Users/tobetch/.gitignore_global
-[remote "origin"]
-url = git@github.com:Tobetch/dotfiles.git
-fetch = +refs/heads/*:refs/remotes/origin/*
 [commit]
 template = /Users/tobetch/.stCommitMsg
