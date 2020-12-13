@@ -58,6 +58,7 @@ alias hg='history | grep'
 
 # alias
 alias be='bundle exec'
+alias ber='bundle exec rails'
 alias bi='bundle install --path vendor/bundle --jobs=4'
 alias ls='ls -G'
 alias ll='ls -l'
