@@ -122,11 +122,7 @@ alias t="tig"
 # Java(Mac用)
 # export JAVA_HOME=`/usr/libexec/java_home -v 12` #java12が使いたいとき
 export JAVA_HOME=$(/usr/libexec/java_home -v 11) #java11が使いたいとき
-# export JAVA_HOME=`/usr/libexec/java_home -v 10` #java10が使いたいとき
-# export JAVA_HOME=`/usr/libexec/java_home -v 9` #java9が使いたいとき
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.8` #java8が使いたいとき
-# export JAVA_HOME=`/usr/libexec/java_home -v 1.7` #java7が使いたいとき
-# export JAVA_HOME=`/usr/libexec/java_home -v 1.6` #java6が使いたいとき
 
 # Java(共通)
 export PATH=$PATH:$JAVA_HOME/bin
