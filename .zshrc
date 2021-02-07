@@ -41,6 +41,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # alias:npm
 alias n="npm"
+alias ni="npm install"
+alias nig="npm install -g"
 alias ns="npm run start"
 alias ncu="npm-check-updates"
 
