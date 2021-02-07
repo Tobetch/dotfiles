@@ -45,7 +45,7 @@ alias ns="npm run start"
 alias ncu="npm-check-updates"
 
 # Homebrew gradle
-export PATH="/opt/gradle/gradle-6.0.1/bin:$PATH"
+# export PATH="/opt/gradle/gradle-6.0.1/bin:$PATH"
 
 # Homebrew openssl
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
