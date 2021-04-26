@@ -63,6 +63,7 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
 alias al='alias'
 alias gr='grep'
 alias hg='history | grep'
+alias sourcedot='source ~/.zshrc'
 
 # alias
 alias be='bundle exec'
