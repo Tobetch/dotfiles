@@ -126,7 +126,12 @@ alias t="tig"
 
 # alias:docker
 alias d="docker"
-
+alias dil="docker image ls"
+alias dcu="docker-compoose up -d"
+alias dcd="docker-compoose down"
+alias dcr='docker-compose restart'
+alias dp='docker ps'
+alias dx='docker exec -it'
 # eval "$(pyenv init -)"
 
 # Java(Mac用)
