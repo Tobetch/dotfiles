@@ -124,6 +124,9 @@ alias std="git stash drop"
 # alias:tig
 alias t="tig"
 
+# alias:docker
+alias d="docker"
+
 # eval "$(pyenv init -)"
 
 # Java(Mac用)
