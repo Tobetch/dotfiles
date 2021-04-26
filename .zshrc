@@ -126,7 +126,8 @@ alias t="tig"
 
 # alias:docker
 alias d="docker"
-alias dil="docker image ls"
+alias dils="docker image ls"
+alias dila="docker image ls -a"
 alias dcu="docker-compoose up -d"
 alias dcd="docker-compoose down"
 alias dcr='docker-compose restart'
