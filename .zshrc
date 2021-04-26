@@ -23,6 +23,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 # Homebrew rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
