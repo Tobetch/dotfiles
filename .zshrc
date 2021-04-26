@@ -42,6 +42,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # alias:npm
 alias n="npm"
+alias na="npm audit"
+alias naf="npm audit fix"
+alias naff="npm audit fix --force"
 alias ni="npm install"
 alias nig="npm install -g"
 alias ns="npm run start"
