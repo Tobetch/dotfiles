@@ -1,4 +1,4 @@
 [core]
-excludesfile = /Users/tobetch/.gitignore_global
+	excludesfile = /Users/tobetch/.gitignore_global
 [commit]
 template = /Users/tobetch/.stCommitMsg
