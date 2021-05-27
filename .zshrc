@@ -127,6 +127,7 @@ alias stl="git stash list"
 alias sts="git stash save"
 alias stp="git stash pop"
 alias std="git stash drop"
+alias restore="git restore"
 
 # alias:tig
 alias t="tig"
