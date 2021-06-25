@@ -48,3 +48,4 @@ Thumbs.db
 
 # nodejs
 .node-version
+.node_modules
