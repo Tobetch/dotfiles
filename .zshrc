@@ -85,7 +85,7 @@ alias vi='vim'
 alias :q='exit'
 
 # alias:cd
-alias cdd="cd $HOME/Desktop"
+alias cdd="cd $HOME/Downloads"
 
 # alias:git
 alias g="git"
