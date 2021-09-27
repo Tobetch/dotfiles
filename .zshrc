@@ -150,8 +150,10 @@ alias dx='docker exec -it'
 
 # Java(Mac用)
 # export JAVA_HOME=`/usr/libexec/java_home -v 12` #java12が使いたいとき
-export JAVA_HOME=$(/usr/libexec/java_home -v 11) #java11が使いたいとき
-# export JAVA_HOME=`/usr/libexec/java_home -v 1.8` #java8が使いたいとき
+# export JAVA_HOME=$(/usr/libexec/java_home -v 11) #java11が使いたいとき
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8) #java8が使いたいとき
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
 
 # Java(共通)
 export PATH=$PATH:$JAVA_HOME/bin
