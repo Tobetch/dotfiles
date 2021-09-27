@@ -1,4 +1,4 @@
-## How to use?
+# How to use?
 
 First of all, execute "git clone" command as folloings!
 
@@ -19,9 +19,13 @@ That's all!
 <<<<<<< HEAD
 Enjoy your terminal life!
 
-
-
 ## Test for Push
+
 =======
 Enjoy your terminal life!!
 >>>>>>> be77d705c570fe302423898a06682e614a8e0e84
+
+## About jenv
+
+- [GitHub](https://github.com/jenv/jenv)
+- [Reference](https://www.jenv.be/)
