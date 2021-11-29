@@ -29,7 +29,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# Homebrew node
+# Homebrew npm
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 # Homebrew nodenv
