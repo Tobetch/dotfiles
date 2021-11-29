@@ -53,11 +53,13 @@ alias naff="npm audit fix --force"
 alias ncv="npm cache verify"
 alias ni="npm install"
 alias nig="npm install -g"
+alias nr="npm run"
 alias ns="npm run start"
 alias ncu="npm-check-updates"
 
 # alias:yarn
 alias y="yarn"
+alias yr="yarn run"
 alias ys="yarn run start"
 
 # Homebrew gradle
