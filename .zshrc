@@ -56,6 +56,10 @@ alias nig="npm install -g"
 alias ns="npm run start"
 alias ncu="npm-check-updates"
 
+# alias:yarn
+alias y="yarn"
+alias ys="yarn run start"
+
 # Homebrew gradle
 # export PATH="/opt/gradle/gradle-6.0.1/bin:$PATH"
 
