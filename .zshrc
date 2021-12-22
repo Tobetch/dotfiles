@@ -59,6 +59,7 @@ alias ncu="npm-check-updates"
 
 # alias:yarn
 alias y="yarn"
+alias yi="yarn install"
 alias yr="yarn run"
 alias ys="yarn run start"
 
