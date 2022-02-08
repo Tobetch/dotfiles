@@ -166,3 +166,10 @@ eval "$(jenv init -)"
 export PATH=$PATH:$JAVA_HOME/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Tomcat
+export CATALINA_HOME=/usr/local/Cellar/tomcat@9/9.0.53
+
+# Golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
