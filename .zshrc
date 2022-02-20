@@ -24,6 +24,8 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+# brew update  # update Homebrew
+# brew upgrade # upgrade Homebrew's Package
 
 # Homebrew rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
