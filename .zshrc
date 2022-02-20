@@ -172,6 +172,11 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Tomcat
 export CATALINA_HOME=/usr/local/Cellar/tomcat@9/9.0.53
 
+# firebase
+alias fb='firebase'
+alias fbl='firebase login'
+alias fbi='firebase init'
+alias fbd='firebase deploy'
 # Golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
