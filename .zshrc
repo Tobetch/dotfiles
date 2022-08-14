@@ -177,6 +177,12 @@ alias fb='firebase'
 alias fbl='firebase login'
 alias fbi='firebase init'
 alias fbd='firebase deploy'
+
 # Golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# Android Studio
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
