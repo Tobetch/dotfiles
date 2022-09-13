@@ -74,14 +74,15 @@ export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
 
-# alias:utility
+# alias
+
+## alias:utility
 alias al='alias'
 alias cl='clear'
 alias gr='grep'
 alias hg='history | grep'
 alias sourcedot='source ~/.zshrc'
 
-# alias
 alias be='bundle exec'
 alias ber='bundle exec rails'
 alias bi='bundle install --path vendor/bundle --jobs=4'
@@ -94,10 +95,10 @@ alias tf='tail -f'
 alias vi='vim'
 alias :q='exit'
 
-# alias:cd
+## alias:cd
 alias cdd="cd $HOME/Downloads"
 
-# alias:git
+## alias:git
 alias g="git"
 alias l="git log"
 alias lp="git log -p"
@@ -107,7 +108,6 @@ alias a="git add"
 alias re="git reset"
 alias res="git reset --soft HEAD~"
 alias reh="git reset --hard HEAD~"
-alias f="git fetch --prune"
 alias rb="git rebase"
 alias rbd="git rebase develop"
 alias cm="git commit -m"
@@ -143,10 +143,10 @@ alias std="git stash drop"
 alias restore="git restore"
 alias switch="git switch"
 
-# alias:tig
+## alias:tig
 alias t="tig"
 
-# alias:docker
+## alias:docker
 alias d="docker"
 alias dils="docker image ls"
 alias dila="docker image ls -a"
@@ -157,10 +157,10 @@ alias dp='docker ps'
 alias dx='docker exec -it'
 # eval "$(pyenv init -)"
 
-# Java(Mac用)
-# export JAVA_HOME=`/usr/libexec/java_home -v 12` #java12が使いたいとき
-# export JAVA_HOME=$(/usr/libexec/java_home -v 11) #java11が使いたいとき
+# Java for Mac
 # export JAVA_HOME=$(/usr/libexec/java_home -v 1.8) #java8が使いたいとき
+# export JAVA_HOME=$(/usr/libexec/java_home -v 11) #java11が使いたいとき
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
