@@ -186,3 +186,21 @@ export PATH=$PATH:$GOPATH/bin
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+# flutter
+export PATH="$PATH:${HOME}/development/flutter/bin"
+alias fl="flutter"
+alias fld="flutter devices"
+alias flr="flutter run"
+alias flra="flutter run -d RFCN20NQEYW"
+alias flrae="flutter run -d emulator-5554"
+alias flrc="flutter run -d chrome"
+alias flrm="flutter run -d macos"
+alias fli="flutter install"
+alias flt="flutter test"
+alias fls="flutter screenshot"
+
+# Android Studio
+export PATH="$PATH":"$HOME/Library/Android/sdk"
+export PATH="$PATH":"$HOME/Library/Android/sdk/emulator"
+# emulator -avd Pixel_4_API_30 -netdelay none -netspeed full
