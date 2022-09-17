@@ -204,3 +204,7 @@ alias fls="flutter screenshot"
 export PATH="$PATH":"$HOME/Library/Android/sdk"
 export PATH="$PATH":"$HOME/Library/Android/sdk/emulator"
 # emulator -avd Pixel_4_API_30 -netdelay none -netspeed full
+
+# Dart
+# activate flutter_gen
+export PATH="$PATH":"$HOME/.pub-cache/bin"
