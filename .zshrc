@@ -210,3 +210,6 @@ export PATH="$PATH":"$HOME/Library/Android/sdk/emulator"
 # Dart
 # activate flutter_gen
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
