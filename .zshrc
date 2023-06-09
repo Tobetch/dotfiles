@@ -232,3 +232,8 @@ alias pi="pip install"
 export LD_LIBRARY_PATH=$(brew --prefix)/lib
 export PYTHONPATH=$LD_LIBRARY_PATH/python3.10/site-packages
 export TESSDATA_PREFIX=$(brew --prefix)/share/tessdata
+
+# MySQL
+export MYSQL_USER=tobetch
+# export MYSQL_PASSWORD=
+
