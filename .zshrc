@@ -214,3 +214,21 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Python
+alias pi="pip install"
+
+# Python Build
+# env \
+#   PATH="$(brew --prefix tcl-tk)/bin:$PATH" \
+#   LDFLAGS="-L$(brew --prefix tcl-tk)/lib" \
+#   CPPFLAGS="-I$(brew --prefix tcl-tk)/include" \
+#   PKG_CONFIG_PATH="$(brew --prefix tcl-tk)/lib/pkgconfig" \
+#   CFLAGS="-I$(brew --prefix tcl-tk)/include" \
+#   PYTHON_CONFIGURE_OPTS="--with-tcltk-includes='-I$(brew --prefix tcl-tk)/include' --with-tcltk-libs='-L$(brew --prefix tcl-tk)/lib -ltcl8.6 -ltk8.6'" \
+#   pyenv install 3.10.11
+
+## Python Tesseract
+export LD_LIBRARY_PATH=$(brew --prefix)/lib
+export PYTHONPATH=$LD_LIBRARY_PATH/python3.10/site-packages
+export TESSDATA_PREFIX=$(brew --prefix)/share/tessdata
