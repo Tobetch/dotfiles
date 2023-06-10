@@ -184,6 +184,10 @@ alias fbd='firebase deploy'
 # Golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+alias gr="go run"
+alias gg="go get"
+alias gm="go mod"
+alias gmi="go mod init"
 
 # Android Studio
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
