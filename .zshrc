@@ -43,10 +43,10 @@ if type brew &>/dev/null; then
 fi
 
 # alias:Homebrew
-alias brlst='brew list'
-alias brsrvcs='brew services'
-alias brdctr='brew doctor'
-alias brud='brew update'
+alias brl='brew list'
+alias brs='brew services'
+alias brd='brew doctor'
+alias bru='brew update'
 alias brug='brew upgrade'
 
 # alias:npm
