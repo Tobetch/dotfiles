@@ -24,8 +24,6 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-# brew update  # update Homebrew
-# brew upgrade # upgrade Homebrew's Package
 
 # Homebrew rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -45,9 +43,11 @@ if type brew &>/dev/null; then
 fi
 
 # alias:Homebrew
-alias brwlst='brew list'
-alias brwsrvcs='brew services'
-alias brwdctr='brew doctor'
+alias brlst='brew list'
+alias brsrvcs='brew services'
+alias brdctr='brew doctor'
+alias brud='brew update'
+alias brug='brew upgrade'
 
 # alias:npm
 alias n="npm"
