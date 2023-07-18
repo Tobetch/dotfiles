@@ -172,6 +172,9 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Scala
+export PATH=$PATH:$HOME/Library/Application\ Support/Coursier/bin
+
 # Tomcat
 export CATALINA_HOME=/usr/local/Cellar/tomcat@9/9.0.53
 
