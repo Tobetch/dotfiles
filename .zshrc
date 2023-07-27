@@ -1,6 +1,9 @@
 # make command available after install immediately
 zstyle ":completion:*:commands" rehash 1
 
+# PROMPT NAME(default: %n@%m %1~ %#)
+PROMPT="%n %1~ %#"
+
 #
 # Executes commands at the start of an interactive session.
 #
