@@ -72,6 +72,7 @@ alias y="yarn"
 alias yi="yarn install"
 alias yr="yarn run"
 alias ys="yarn run start"
+alias yd="yarn dev"
 
 # Homebrew gradle
 # export PATH="/opt/gradle/gradle-6.0.1/bin:$PATH"
