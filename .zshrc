@@ -109,6 +109,7 @@ alias cdd="cd $HOME/Downloads"
 
 ## alias:git
 alias g="git"
+alias clone="git clone"
 alias l="git log"
 alias lp="git log -p"
 alias lo="git log --oneline"
