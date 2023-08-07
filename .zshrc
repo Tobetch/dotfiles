@@ -97,9 +97,6 @@ alias gr='grep'
 alias hg='history | grep'
 alias sourcedot='source ~/.zshrc'
 
-alias be='bundle exec'
-alias ber='bundle exec rails'
-alias bi='bundle install --path vendor/bundle --jobs=4'
 alias ls='ls -G'
 alias ll='ls -l'
 alias la='ll -a'
@@ -171,6 +168,11 @@ alias dcr='docker-compose restart'
 alias dp='docker ps'
 alias dx='docker exec -it'
 # eval "$(pyenv init -)"
+
+# rails
+alias be='bundle exec'
+alias ber='bundle exec rails'
+alias bi='bundle install --path vendor/bundle --jobs=4'
 
 # Java for Mac
 # export JAVA_HOME=$(/usr/libexec/java_home -v 1.8) #java8が使いたいとき
