@@ -55,6 +55,9 @@ alias brd='brew doctor'
 alias bru='brew update'
 alias brug='brew upgrade'
 
+# alias:node
+alias nv="node --version"
+
 # alias:npm
 alias n="npm"
 alias na="npm audit"
