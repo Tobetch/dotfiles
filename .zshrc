@@ -202,7 +202,7 @@ alias fbd='firebase deploy'
 # Golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-alias gr="go run"
+# alias gr="go run"
 alias gg="go get"
 alias gm="go mod"
 alias gmi="go mod init"
@@ -212,8 +212,10 @@ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
+# fvm
+export PATH=$PATH:${HOME}/fvm/default/bin
+
 # flutter
-export PATH="$PATH:${HOME}/development/flutter/bin"
 alias fl="flutter"
 alias fld="flutter devices"
 alias flr="flutter run"
