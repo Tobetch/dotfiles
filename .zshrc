@@ -67,6 +67,7 @@ alias ncv="npm cache verify"
 alias ni="npm install"
 alias nig="npm install -g"
 alias nr="npm run"
+alias nri="npm run initialize"
 alias ns="npm run start"
 alias ncu="npm-check-updates"
 
